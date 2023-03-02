@@ -1,0 +1,33 @@
+.sign-up{
+  text-align: center;
+}
+
+.sign-up h1{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: blueviolet;
+}
+
+.login{
+  text-align: center;
+}
+
+.login h1{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: blueviolet;
+}
+
+a{
+  margin-top: 10px;
+  font-size: 14px;
+  color: blueviolet;
+  text-align: left;
+}
+
+.auth-error{
+  color:red;
+}
+
+
+

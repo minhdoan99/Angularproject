@@ -1,1 +1,85 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+  font-family: sans-serif;
+}
+.container{
+  margin-left:5%;
+  margin-right:5%;
+}
+
+.nav{
+  display:flex;
+  justify-content:space-between;
+}
+
+.nav h1{
+  color: blueviolet;
+  margin: 0;
+  font-size: 40px;
+}
+.nav .nav-search{
+
+  flex:1;
+  display: flex;
+  margin-left: 5%;
+  margin-right:5%;
+}
+
+.nav .nav-search input{
+  flex:1;
+  color: blueviolet;
+  border: 1px solid blueviolet;
+  height: 35px;
+  border-right: none;
+}
+
+.nav .nav-search button{
+  color: blueviolet;
+  border: 1px solid blueviolet;
+  height: 39px;
+}
+
+.nav ul{
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.nav ul li{
+  padding-left: 15px;
+  padding-top: 15px;
+}
+.nav ul a{
+  text-decoration: none;
+  color: blueviolet;
+}
+
+.common-form{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: auto;
+}
+.form-input{
+  height: 35px;
+  margin-bottom: 20px;
+  border: 1px solid blueviolet;
+  padding-left: 15px;
+  color: blueviolet;
+}
+.form-button{
+  height: 35px;
+  border: 1px solid blueviolet;
+  color: blueviolet;
+  cursor: pointer
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,19 @@
+<div class="row search-item" *ngFor="let item of searchResult">
+  <div class="col-sm-3">
+    <a href="" routerLink="/details/{{ item.id }}">
+      <img src="
+
+      https://cdn11.dienmaycholon.vn/filewebdmclnew/DMCL21/Picture//Apro/Apro_product_30820/iphone-11-128gb_main_583_1020.png.webp
+      " alt="">
+    </a>
+  </div>
+  <div class="col-sm-8 details">
+    <a href="" routerLink="/details/{{item.id}}">{{item.name}}</a>
+    <p>
+      <b>Price:{{ item.price }}</b>
+    </p>
+    <p>Color:{{ item.color }}</p>
+    <p>Category:{{ item.category }}</p>
+    <p>{{ item.description }}</p>
+  </div>
+</div>

@@ -1,0 +1,33 @@
+.product-item{
+  margin-bottom: 40px;
+  border : 1px solid #ccc;
+}
+
+.row{
+  display: flex;
+}
+.col{
+  margin-right:10px;
+}
+.product-item img
+{
+  width: 200px;
+  width: 100%;
+}
+.product-item .product-details{
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 15px;
+}
+.product-item .name-head{
+  font-size: 20px;
+  font-weight: 600;
+}
+.product-item h6{
+  text-align: center;
+}
+.product-item .product-footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
